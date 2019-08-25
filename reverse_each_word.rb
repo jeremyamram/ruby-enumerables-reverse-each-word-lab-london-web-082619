@@ -1,13 +1,8 @@
 def reverse_each_word(sentenced)
   new = sentenced.split(/ /)
-  new.each do {|sentenced| sentenced.reverse}
+  sentenced.each do {|new| new.reverse}
 end
-
-def reverse_each_word(sentence)
-sentence.split(/ /).collect do |word|
-  word.reverse 
-end
-end
-
 reverse_each_word("hey there")
+
+
 
